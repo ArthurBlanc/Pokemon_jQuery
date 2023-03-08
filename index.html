@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Pokémon « carte jQuery » - Arthur BLANC : Développeur Web</title>
+    <meta name=description content="Portfolio - Nom du projet : Pokémon - jQuery Demo. Description du projet : Une page web marrante dans l'univers de Pokémon dynamisée avec du jQuery.">
+</head>
+
+<body>
+	<div class="contenu">
+
+		<!-- Paragraphe Pikachu -->
+		<p class="Pikachu">Pikachu ! </br> Attaque Éclair</p>
+		<!-- Player caché du son de l'attaque Éclair -->
+		<p><audio src="son/Thunder_Shock.mp3" controls id="Éclair"></audio></p>
+
+		<!-- Paragraphe Salameche -->
+		<p class="Salameche">Salameche !</br> Attaque Déflagration</p>
+		<!-- Player caché du son de l'attaque Déflagration -->
+		<p><audio src="son/Fire_Blast.mp3" controls id="Déflagration"></audio></p>
+
+		<!-- Paragraphe Bulbizarre -->
+		<p class="Bulbizarre">Bulbizarre ! </br> Attaque Canon Graine</p>
+		<!-- Player caché du son de l'attaque Canon-Graine -->
+		<p><audio src="son/Seed_Bomb.mp3" controls id="Canon-Graine"></audio></p>
+
+		<!-- Paragraphe Carapuce -->
+		<p class="Carapuce">Carapuce ! </br> Attaque Écume</p>
+		<!-- Player caché du son de l'attaque Écume -->
+		<p><audio src="son/Bubble.mp3" controls id="Écume"></audio></p>
+
+		<!-- Player du générique Pokémon -->
+		<p><audio src="son/generique-pokemon.mp3" controls id="Générique-pokémon"></audio></p>
+
+	</div>
+	<script	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+
+    <script src="js/pokemon.js"></script>
+</body>
+
+</html>
